@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #f8faff;
+}
+
+.allCategories {
+    background-color: #ebeeef;
+    color: #122f34;
+    border: 1px solid #122f34;
+}
+
+.countryButton {
+    background-color: #fff;
+    color: #122f34;
+    border: 1px solid #122f34;
+}
+
+.coverImage img{
+    width: 100vw;
+}
