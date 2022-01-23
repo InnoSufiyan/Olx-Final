@@ -1,4 +1,4 @@
-import image from "../../images/car.jpg";
+// import image from "../../images/car.jpg";
 import "./App.css";
 
 import Imagegallery from "../../Component/Imagegallery";
@@ -48,9 +48,9 @@ export default function Detail() {
 
   const IMAGES = [
     {
-      src: {image},
+      src: "",
       thumbnail:
-        {image},
+        "",
       thumbnailWidth: 320,
       thumbnailHeight: 174,
       isSelected: true,
@@ -146,7 +146,10 @@ export default function Detail() {
           style={{ height: "500px", minWidth: "500px" }}
           className="d-flex align-items-center"
         >
-          <img src={singleAd?.image[0]}/>
+          <img style={{
+            width: '100%',
+            height: '100%'
+          }} src={singleAd?.image[0]}/>
         </div>
         <div
           style={{ height: "500px", maxWidth: "500px" }}

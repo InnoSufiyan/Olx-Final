@@ -4,7 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
-import car from '../../images/car.jpg'
+// import car from '../../images/car.jpg'
 import { Box, ThemeProvider } from '@mui/system';
 
 import { useHistory } from "react-router-dom";

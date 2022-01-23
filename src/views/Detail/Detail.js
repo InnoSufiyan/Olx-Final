@@ -1,4 +1,3 @@
-import image from "../../images/car.jpg";
 import "./App.css";
 
 import * as React from "react";
